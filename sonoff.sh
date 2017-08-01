@@ -1,4 +1,3 @@
-cat > sonoff.sh << "EOF"
 #!/bin/sh
 MY_DEVICE=switch6
 RELAY_CTRL=/sys/class/leds/tp-link:blue:relay/brightness
@@ -57,5 +56,3 @@ do
 done
 
 exit 0
-EOF
-chmod +x ./sonoff.sh
